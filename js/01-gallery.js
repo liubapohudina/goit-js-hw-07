@@ -12,7 +12,7 @@ const itemImage = galleryItems.map((item) => `  <li class="gallery__item">
     </a>
   </li>
 `)
-    .join();
+    .join("");
  listImage.insertAdjacentHTML("afterbegin", itemImage)
 //console.log(itemImage)
 console.log(galleryItems);
