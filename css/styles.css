@@ -61,3 +61,11 @@ margin: 50px auto;
 .gallery__link:hover {
   cursor: zoom-in;
 }
+.sl-wrapper {
+  background-color: rgb(202, 235, 235, 0.10);
+  /*opacity: 5;*/
+}
+.sl-wrapper .sl-image .sl-caption {
+  text-align: center;
+  background-color: rgb(73, 73, 108);
+}
